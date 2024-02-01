@@ -1,0 +1,28 @@
+﻿<br />
+<span>
+
+    <strong>Destino</strong>
+    @Destino
+
+    <strong>HoraSalida</strong>
+    @HoraSalida
+
+    <strong>HoraLlegada</strong>
+    @HoraLlegada
+</span>
+
+
+@code{
+    [Parameter]
+
+    public string Destino { get; set; } = "";
+
+
+    [Parameter]
+
+    public string HoraSalida { get; set; } = "";
+
+    [Parameter]
+
+    public string HoraLlegada { get; set; } = "";
+}

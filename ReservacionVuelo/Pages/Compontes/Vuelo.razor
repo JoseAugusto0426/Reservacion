@@ -1,0 +1,49 @@
+﻿<br />
+<span>
+    <strong>Nombre:</strong>
+    @Nombre
+
+    <strong>Origen:</strong>
+    @Origen
+
+    <strong>Destino:</strong>
+    @Destino
+
+    <strong>Fecha</strong>
+    @Fecha
+    
+    
+    <strong>Salida</strong>
+    @Salida
+
+    <strong>Llegada</strong>
+    @Llegada
+</span>
+
+@code {
+    [Parameter]
+    public string Nombre
+    { get; set; } = "";
+
+    [Parameter]
+    public string Origen
+    { get; set; } = "";
+
+    [Parameter]
+    public string Destino
+    { get; set; } = "";
+
+    [Parameter]
+    public string Fecha
+    { get; set; } = "";
+
+
+    [Parameter]
+    public string Salida
+    { get; set; } = "";
+
+
+    [Parameter]
+    public string Llegada
+    { get; set; } = "";
+}
